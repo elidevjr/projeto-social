@@ -21,6 +21,7 @@ main {
     position: relative;
 }
 
+
 #telefone {
     position: absolute;
     top: 50%;
@@ -39,4 +40,23 @@ main {
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais a > img {
+    border-radius: 50%;
+    width: 60px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
+
+#redes-sociais  img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    transition: transform .5s;
 }
